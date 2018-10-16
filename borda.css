@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+#borda{
+    background:rgb(211, 209, 209);
+    padding: 10px;
+    border: 5px double rgb(61, 61, 61);
+    border-width: 10px;
+    display: block;
+}
+
+#tbBorda{
+    border: 5px groove white;
+    border-width: 5px;
+}
+
+#containerD{
+    background-color: rgb(3, 3, 3);
+    border: 10px outset aliceblue;
+}
+
+#texto{
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+}
+
+#inic{
+    text-shadow: 1px 0px 0px red, 
+                 -1px 0px 0px red, 
+                 0px 1px 0px red, 
+                 0px -1px 0px red;
+    color: #FFF;
+    font-weight: normal;
+    text-align: center;   
+}
+
+.fullscreen_bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('alicate.jpg');
+    background-repeat:repeat;
+  }
